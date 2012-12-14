@@ -1,0 +1,14 @@
+
+.te{
+font-size:10px;
+color:#cc0000;
+}
+
+h1 {
+text-align: center;
+}
+
+ol {
+list-style-image:url(../images/arrow1.png);
+list-style-position: inside;
+}
