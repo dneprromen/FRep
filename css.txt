@@ -1,0 +1,23 @@
+padding: 40px 20px 10px 5px;
+margin: 20px auto 20px auto
+width: 550px;
+height: 200px;
+overflow: hidden/auto/scroll/visible(значение по умолчанию в браузере)                   в случае "много контента"
+text-align: center;
+
+
+display: inline;      -   все теги внтутри другого превращаются во встроенные
+
+background-color:
+background-image:url(../images/bg.jpg)   стартует из папки CSS, нужно сначала выйти
+background-repeat: no-repeat/repeat-x/repeat-y
+background-position: center center/right  center/Xpx Ypx    - положение картинки
+background-attachment: fixed;             - фиксирует положение картинки от окна браузера, при скороле картинка будет двигаться
+сокращённая запись для background: background-image, background-repeat, background-attachment: fixed, background-position
+
+outline: 1px solid #color    - рамка
+
+floar: left/right
+
+border-collapse:collapse;
+

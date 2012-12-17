@@ -1,0 +1,28 @@
+body{
+font: 11px Verdana;
+margin: 20px 20px 20px 20px;
+}
+
+#fieldset{
+width: 600px;
+background-color:#F3F3F3;
+border: 1px solid black;
+}
+
+fieldset p{
+padding-left: 10px;
+}
+
+#checkbox{
+padding:5px;
+}
+
+#bold_text{
+font-weight: 900;
+}
+
+#textarea{
+background-color:#DBEAF9;
+width:617px;
+border: 1px solid black;
+}

@@ -2,44 +2,76 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Первый документ</title>
-
-<link href="css/style.css" type="text/css" rel="stylesheet">
-
+<link href="css/style-3.css" type="text/css" rel="stylesheet">
+<title>Первая страница</title>
 </head>
 <body>
-<h1>How To Avoid Wasting Your Most Valuable Online Asset - TIME!</h1>
 
 
-<div class="te">
-<p>If you're involved in an internet marketing business, then
-you've probably already come face-to-face with your #1
-enemy - "Time Wasting".</p>
+<form name="form1" action="formdata.php" method="Post">
 
-<p>What you need to know is that "Time Is Money". And this
-applies even more to the online world, than in regular
-business.</p>
-</div>
+<fieldset id="fieldset">
 
-<p>You see, anyone can become an online entrepreneur. It
-doesn't involve start-up capital or expensive equipment to
-start. A low grade PC and a net connection is all you need.</p>
+<legend>Legend, I can add any text here</legend>
+<img src="Images/m_f6f37e04.png" width="272"  height="137">
 
-<p>And since cash isn't really a barrier, time-management has
-become all the more critical. Your challenge for success is
-simply to get more done - in less time.</p>
+<p id="bold_text">Text field
+	<p>
+		<input name="name" type="text" size="30" maxlength="10" > </input>
+	</p>
+</p>
 
-<p>So what are the greatest online time wasters and what can
-you do to avoid them?</p>
-<ol>
-<li> Retyping the same old thing time and time again.</li>
-<li> Failing to manage your email effectively.</li>
-<li> Getting sucked into pointless forum discussions.</li>
-<li> Failing to set a goal, before you switch the computer on.</li>
-</ol>
+<p id="bold_text">Radio button
+	<p>
+		<label>Yes<input type="radio" name="time" value="yes" checked></label>
+		<label>No<input type="radio" name="time" value="no"></label>
+	</p>
+</p>
+</fieldset>
 
-<h2>Retyping the same old thing time and time again.</h2>
+<fieldset id="fieldset">
 
+	<legend>Another Legend</legend>
+
+	<p id="bold_text">Check box
+		<p id="checkbox">
+			<label><input type="checkbox" name="ch">Yes</label>
+			<label><input type="checkbox" name="ch1">No</label>
+		</p>
+	</p>
+	
+	<p>
+		<select name="dropdown">
+			<option>5</option> <option>6</option> <option>7</option>
+			<option selected value="8">8</option> <option>10</option>
+		</select>
+	</p>
+
+</fieldset>
+<p id="bold_text">Text Area
+	<p>
+		<textarea name="textarea" id="textarea" cols="30" rows="5">some text...</textarea>
+	</p>
+<p>
+	<input type="reset" name="reset" value="clear">
+	<input type="submit" name="submit" value="send">
+	<input type="button" name="button" value="button for JS" >
+</p>
+
+
+<img src="images/videos.png" align="right" width="700" height="400" alt="sometext" usemap="#221" >
+<map id="221" name="imgmap">
+<area shape="rect" alt="Hurts" title="" coords="1,1,347,193" href="Video/Shinedown.html" target="_blank">
+<area shape="rect" alt="Breaking benjamin" title="" coords="351,1,697,213" href="Video/Hurts.html" target="_blank">
+<area shape="rect" alt="ShineDown" title="" coords="4,195,351,397" href="Video/Adam.html" target="_blank" >
+<area shape="rect" alt="Adam Lambert" title="" coords="353,218,697,398" href="Video/benjamin.html" target="_blank">
+</map>
+</p>
+<p><a href="video.html">Link to a video</a></p>
+
+<!-- disable, readonly -->
+
+</form>
 
 
 </body>
