@@ -1,0 +1,294 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<title>Training</title>
+
+<link href="css/style-6.css" rel="stylesheet">
+
+</head>
+<body>
+
+
+			<script>
+			
+			
+			/*SUMMA DO UKAZANNOGO 4ISLA--------------------------------------
+			function sum(num) {
+			  var sum=0;
+			for(var i=1;i<=num;i++) {
+			  sum=sum+i;
+			};
+			
+			alert(sum);
+			
+			return confirm("Do you want to repeat?")?runcalc():alert("bye");
+			};
+			
+			
+			function runcalc(){
+			var number=prompt("enter a number", "");
+			return sum(number);
+			
+			}
+			
+			runcalc();
+			*/
+			
+			/*fibona4i------------------------------------------------
+			function fib(number){
+			  var x=1;
+			  var y=1;
+			
+			for(var i=2;i<number;i++){
+			  var z=x+y;
+			      x=y;
+			      y=z;
+			}
+			
+			return z;
+			};
+			
+			var num=prompt("number?", "")
+			
+			alert(fib(num));
+			*/
+			
+			/*ppc kakou-to---------------------------
+			var number=prompt("enter number", "");
+			
+			showPrimes(number);
+			
+			function showPrimes(n) {
+				  for (var i=2; i<n; i++) {
+					if (!isPrime(i)) continue;
+					alert(i);  // простое        
+				  }
+				}
+			function isPrime(n) {
+
+				  for (var i=2; i<n; i++) {
+					if ( n % i == 0) return false;
+				  }
+				  return true;
+				}
+				*/
+			/*	the first leter is toUpperCase
+			var text="roman";
+			
+			upFirst(text);
+			
+			function upFirst(string) {
+			  var finalText=string.charAt(0).toUpperCase();
+			  
+			    for(var i=1; i<string.length; i++) {
+				  finalText+=string.charAt(i);
+				};
+			  alert(finalText);
+			}
+			*/
+			/* proveryaet spam ili net-----------------------
+			checkSpam("innocent rabbit");
+			
+			function checkSpam(str) {
+			
+			  str=str.toLowerCase();
+			
+			if(~str.indexOf("xxx") || ~str.indexOf("viagra")){
+			  alert("Spam!!!")
+			  }
+			else alert("Not a spam!!")
+			}	
+			*/
+			/*obrezaet dlinniu string do ukazannou dlini i stavit "..."-----------------------------
+			var str="Всем привет!sdfhdfghfghsfghsfhsdfghsdfghhgshgf";
+			var num=15;
+			
+			cutStr(str, num);
+			
+			function cutStr(text, num) {
+			
+			  if(text.length>num){
+				text=text.slice(0, num)+"...";
+			  }
+			    alert(text);
+			}
+			*/
+			/* ramdeomnoe 4islo ot min do max zna4eniya-------------------------------------
+			
+			
+			function gen(min, max){
+			  
+			 for(var i=0; i<99999; i++){ 
+			    var res=(Math.random()*max).toFixed(0);
+			    
+				if(res>=min && res<=max){
+				  break;
+				} 
+			  }
+			  alert(res);
+			 confirm("Generate?")?gen(min, max):alert("bye");
+			}
+			
+			gen(1, 2);
+			*/
+			/* hash, klu4-zna4enie------------------------
+			var menu = {
+				width: 200, 
+				height: 300,
+				title: "My menu"
+			};
+			
+			//alert(menu.width);
+			
+			function twoTimes(obj){
+			  for(var key in obj){
+			    if(isFinite(obj[key])){
+			       obj[key]*=2;
+			      }
+			  }
+			};
+			
+			twoTimes(menu);
+			
+			for(var per in menu){
+			  alert(menu[per]);
+			};
+			*/
+			/*massivi------------------------------------------
+			var styles=['Jazz','Blue'];
+			styles.push('Rock');
+			styles[styles.length-2]='Classic';
+			alert(styles.shift());
+			styles.unshift('Rap', 'Raggy');
+			alert(styles);
+			*/
+			/* юзер вводит массив чисел, целые числа добавляются в массив и выводится сумма всех чисел--------------------------
+			var arr=[];
+			var sum=0;
+			
+			function init() {
+			  var newNumber=+prompt('Enter a number', '');
+
+   			    if(newNumber!=null && isFinite(newNumber) && newNumber!=0){
+				  arr.push(newNumber);
+				  init();
+				}
+				else{
+				  
+				  for(var i=0; i<arr.length; i++){
+				    sum+=arr[i];  
+				  }
+				alert(sum);
+				}
+			}
+			init();
+			//alert(+prompt('dfgdfg', ''));
+			*/
+
+
+
+			//разбивает строку на отдельные слова по разделителю, возвращает массив, затем склеиваем обратно ставя другой разделитель и первая буква апперкейс )-----------------------
+			//var arr=createArr(100);
+			
+			
+			// var str="background-color";
+			
+			// alert(camel(str));
+			
+			
+			// function camel(string) {
+			//   var stringHelper;
+			//   var arr=[];
+			
+			//   arr=string.split("-");
+			  
+			//   for(var i=0; i<arr.length; i++){
+			//     stringHelper=arr[i].charAt(0).toUpperCase();
+				
+			// 	  for(var n=1; n<arr[i].length; n++){
+			// 	    stringHelper+=arr[i].charAt(n);
+			// 	}
+			// 	arr[i]=stringHelper;
+			//   }
+			  
+			//  return arr.join(" ");
+			// }
+			//какая-то функция, выразаем элемент массива из середины.------
+			// var obj={className: "open menu menu"};
+			// alert(removeClass(obj, "menu"));
+
+			// function removeClass (obj, cls) {
+			  
+		 //      var arr=(obj.className).split(" ");
+		      
+		 //      for(var i=0; i<arr.length; i++){
+		 //      	if(arr[i]==cls){
+		 //      		arr.splice(i, 1);
+		 //      		i--;
+		 //      	}
+
+
+		 //      }
+		      
+		 //    return arr.join(" ");
+		 //    }	
+
+		 // вырезаем диапазон значений из массива-----------------------------------
+		 // arr = [5, 3, 8, 1, 2, 11, 14, 5, 1, 900];
+		 
+		 // alert(arr);
+
+		 // function filterRangeInPlace(arr, min, max){
+		 // 	for(var i=0; i<arr.length; i++){
+		 // 		if(!(arr[i]<=max && arr[i]>=min)){
+		 // 			arr.splice(i--, 1);
+		 // 		}
+
+		 // 	}
+		 // 	return arr;
+		 // }
+
+		 		// ПРАВИЛЬНАЯ СОрТИРОВКА---------------------------------------------
+				// 		 function compareNumeric(a, b) {
+				//   if (a > b) return 1;
+				//   if (a < b) return -1;
+				// }
+				 
+				// var arr = [ 1, 2, 15 ];
+				 
+				// arr.sort(compareNumeric);
+				 
+				// alert(arr);  // 1, 2, 15
+
+  	// 		var arr = [ 5, 2, 1, -10, 8];
+  	// 		function compareNumeric(a, b) {
+			//   return b - a;
+			// }
+
+			// alert(arr.sort(compareNumeric));
+
+
+			var value = 0;
+ 
+			function f() { 
+			  if (1) {
+			    value = true;
+			  } else {
+			    var value = false;
+			  }
+			 
+			  alert(value);
+			}
+			 
+			f();
+
+			alert(value);
+			
+			
+			</script>
+	
+
+</body>
+</html>

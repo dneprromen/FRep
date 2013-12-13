@@ -1,0 +1,258 @@
+body {
+background-color: #bfbfbf;
+font: 12px Arial;
+}
+
+#wrapper {
+width:1020px;
+margin: 0px auto;
+}
+
+#topLine {
+background-color:#191919;
+height:71px;
+}
+
+#navigation{
+height:59px;
+background-color:#93aa0d;
+border-bottom:1px solid #8fa807;
+border-top:1px solid #8fa807;
+background-image: -moz-linear-gradient(bottom, #889d13, #acc602);
+text-shadow: 1px 1px 2px #a8bf1e;
+}
+
+#description{
+height:300px;
+border-bottom: 2px solid #ffffff;
+background-image: -moz-linear-gradient(bottom, #c0d926, #879c13);
+}
+
+#content{
+height:395px;
+background-color:#ffffff;
+border-bottom: 2px solid #ececec;
+background-image: -moz-linear-gradient(bottom, #ffffff, #e9e9e9);
+padding-top: 45px;
+}
+
+#aboutUs{
+height:225px;
+background-color:#ffffff;
+
+}
+
+#bottomLine{
+height:68px;
+background-color:#191919;
+}
+
+#logoCo{
+float:left;
+padding:20px 0px 0px 100px;
+}
+
+#signUp{
+float:right;
+padding:28px 90px 0px 0px;
+font:900 11px Arial;
+}
+
+#dark{
+color:#4c4c4c;
+text-shadow: 1px 1px 13px #4c4c4c;
+}
+
+#light{
+color:#8c8c8c;
+margin-right:15px;
+text-shadow: 1px 1px 13px #4c4c4c;
+}
+
+a:link.button, a:visited.button, a:active.button{
+    border-radius: 3px 3px 3px 3px;
+    font: 12px Arial;
+    text-decoration: none;
+	padding: 6px 37px;
+	background-color:#373737;
+	color:#a8bf1e;
+	font-weight:900;
+	border: 1px solid gray;
+	box-shadow: 3px 3px 5px #666666 inset;
+	text-shadow: 1px 1px 8px #a8bf1e;
+}
+
+a:hover.button{
+	box-shadow: -3px -3px 5px #666666 inset;
+	text-shadow: 1px 1px 14px #a8bf1e;
+}
+
+ul li{
+list-style-type: none;
+display: inline;
+}
+
+a:link#navigationOption, a:visited#navigationOption, a:active#navigationOption{
+text-decoration: none;
+color:#ffffff;
+margin-right: 17px;
+font: 12px Arial;
+font-weight:900;
+padding: 4px 23px;
+}
+a:hover#navigationOption{
+background-color:#8aa014;
+border-radius: 12px;
+padding: 4px 23px;
+box-shadow: 2px 2px 8px #6d7e10 inset;
+}
+
+#menuList{
+padding: 10px 32px 10px 97px;
+}
+
+#screen{
+Float:left;
+padding: 38px 0px 0px 87px;
+}
+
+#descrText{
+Float:right;
+padding:  71px 106px 0 0;
+}
+
+#paragraf{
+font: 22px Arial;
+font-weight:900;
+color:#113848;
+text-shadow: 0px 0px 11px #113848;
+}
+
+#someText{
+font: 14px Arial;
+color:#353535;
+}
+
+#lineDes{
+width:378px;
+}
+
+#PhotographyBlock{
+float: left;
+width:220px;
+height:395px;
+margin-left:100px;
+}
+
+#BusinessBlock{
+margin-left:402px;
+width:224px;
+height:395px;
+}
+
+#DesigningBlock{
+width:220px;
+float:right;
+height:395px;
+margin-right: 83px;
+}
+
+#photoPhotography{
+float:left;
+}
+
+#MainTitle{
+margin-left: 18px;
+}
+
+#descriptionPhotography{
+margin: 15px 0 0;
+Font: 13px/20px Arial;
+color: #505050;
+}
+
+#mainTitleFotography{
+font: 900 20px Arial;
+color: #404040;
+}
+
+#secondTitleFotography{
+font: 900 14px Arial;
+color: #707070;
+}
+
+#readMore{
+text-align:right;
+margin-top:10px;
+}
+
+a:link#readMoreLink, a:active#readMoreLink, a:visited#readMoreLink{
+text-decoration:none;
+font: bold 13px Arial;
+color:#b4cd22;
+}
+
+a:hover#readMoreLink{
+font: bold 13px Arial;
+color:#d4f12b;
+}
+
+#bottomLogo{
+float:left;
+margin: 26px 0 0 109px;
+font:10px Arial;
+}
+
+#bottomNavigation{
+font:10px Arial;
+float:right;
+margin: 20px 0 0;
+width: 500px;
+}
+
+a:link#navigationOptionBottom, a:visited#navigationOptionBottom, a:active#navigationOptionBottom{
+text-decoration: none;
+color:gray;
+font: 10px Arial;
+font-weight:900;
+padding: 5px;
+}
+a:hover#navigationOptionBottom{
+background-color:#4D4D4D;
+border-radius: 10px;
+padding: 5px;
+box-shadow: 2px 2px 8px #4D4D4D inset;
+}
+
+#copyrights{
+font:10px Arial;
+color:gray;
+margin: 0 0 0 10px;
+position:relative;
+top: -5px;
+}
+
+div#bottomNavigation ul{
+margin-left: 145px;
+padding-left: 0;
+}
+
+#latestWorks{
+float:left;
+width:500px
+}
+
+#aboutUsBlock{
+float:right;
+width:468px;
+}
+
+#textAboutUs{
+Font:13px/20px Arial;
+color: #505050;
+padding-right:71px;
+}
+#titleAboutUs{
+color: #404040;
+font: 900 16px Arial;
+}
